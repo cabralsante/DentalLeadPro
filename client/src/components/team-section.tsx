@@ -2,24 +2,24 @@ import { motion } from "framer-motion";
 
 const teamMembers = [
   {
-    name: "Dr. Sarah Smith",
-    title: "Lead Dentist",
-    experience: "15 years experience",
-    specialization: "Specializes in cosmetic dentistry and implants",
+    name: "Dra. Ana Silva",
+    title: "Dentista Principal",
+    experience: "15 anos de experiência",
+    specialization: "Especialista em odontologia cosmética e implantes",
     image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=300",
   },
   {
-    name: "Dr. Michael Johnson",
-    title: "Orthodontist",
-    experience: "12 years experience",
-    specialization: "Expert in Invisalign and traditional braces",
+    name: "Dr. Carlos Lima",
+    title: "Ortodontista",
+    experience: "12 anos de experiência",
+    specialization: "Especialista em Invisalign e aparelhos tradicionais",
     image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=300",
   },
   {
-    name: "Lisa Martinez",
-    title: "Dental Hygienist",
-    experience: "8 years experience",
-    specialization: "Preventive care and patient education specialist",
+    name: "Mariana Santos",
+    title: "Higienista Dental",
+    experience: "8 anos de experiência",
+    specialization: "Especialista em cuidados preventivos e educação do paciente",
     image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=300",
   },
 ];
@@ -36,10 +36,10 @@ export default function TeamSection() {
           className="text-center mb-16"
         >
           <h2 className="font-['Poppins'] text-3xl md:text-4xl font-bold mb-4">
-            Meet Our Expert <span className="text-primary">Team</span>
+            Conheça Nossa <span className="text-primary">Equipe</span> Especializada
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Our skilled professionals are dedicated to providing you with the highest quality dental care
+            Nossos profissionais qualificados se dedicam a fornecer cuidados odontológicos da mais alta qualidade
           </p>
         </motion.div>
         

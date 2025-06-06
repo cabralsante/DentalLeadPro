@@ -4,30 +4,30 @@ import { Star } from "lucide-react";
 const testimonials = [
   {
     rating: 5,
-    text: "Dr. Smith and the team made my dental anxiety disappear. The atmosphere is so welcoming and the treatment was completely painless. I actually look forward to my appointments now!",
-    name: "Sarah Johnson",
-    role: "Marketing Manager",
+    text: "Dra. Silva e a equipe fizeram minha ansiedade odontológica desaparecer. O ambiente é muito acolhedor e o tratamento foi completamente indolor. Agora realmente aguardo minhas consultas!",
+    name: "Ana Silva",
+    role: "Gerente de Marketing",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=64&h=64",
   },
   {
     rating: 5,
-    text: "I've been coming here for 5 years and the service is consistently excellent. The dental implants look and feel completely natural. Best investment I've ever made!",
-    name: "Michael Chen",
-    role: "Business Owner",
+    text: "Venho aqui há 5 anos e o serviço é consistentemente excelente. Os implantes dentários parecem e funcionam completamente naturais. Melhor investimento que já fiz!",
+    name: "Carlos Santos",
+    role: "Empresário",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=64&h=64",
   },
   {
     rating: 5,
-    text: "The teeth whitening results exceeded my expectations. The staff explained everything clearly and made sure I was comfortable throughout the entire process.",
-    name: "Emily Rodriguez",
-    role: "Teacher",
+    text: "Os resultados do clareamento dental superaram minhas expectativas. A equipe explicou tudo claramente e garantiu que eu ficasse confortável durante todo o processo.",
+    name: "Maria Oliveira",
+    role: "Professora",
     image: "https://images.unsplash.com/photo-1494790108755-2616b612b5bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=64&h=64",
   },
   {
     rating: 5,
-    text: "My family has been patients here for years. They're amazing with kids and adults alike. Professional, friendly, and always on time for appointments.",
-    name: "David Thompson",
-    role: "Engineer",
+    text: "Minha família é paciente aqui há anos. Eles são incríveis com crianças e adultos. Profissionais, amigáveis e sempre pontuais para os compromissos.",
+    name: "Pedro Costa",
+    role: "Engenheiro",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=64&h=64",
   },
 ];
@@ -44,10 +44,10 @@ export default function TestimonialsSection() {
           className="text-center mb-16"
         >
           <h2 className="font-['Poppins'] text-3xl md:text-4xl font-bold mb-4">
-            What Our <span className="text-primary">Patients</span> Say
+            O que Nossos <span className="text-primary">Pacientes</span> Dizem
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Read genuine reviews from our satisfied patients who love their new smiles
+            Leia avaliações genuínas de nossos pacientes satisfeitos que adoram seus novos sorrisos
           </p>
         </motion.div>
         

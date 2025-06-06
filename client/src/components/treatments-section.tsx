@@ -53,10 +53,10 @@ export default function TreatmentsSection() {
           className="text-center mb-16"
         >
           <h2 className="font-['Poppins'] text-3xl md:text-4xl font-bold mb-4">
-            Our <span className="text-primary">Treatment</span> Services
+            Nossos Serviços de <span className="text-primary">Tratamento</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive dental solutions tailored to your unique needs and smile goals
+            Soluções odontológicas abrangentes adaptadas às suas necessidades únicas e objetivos do sorriso
           </p>
         </motion.div>
         

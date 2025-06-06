@@ -101,10 +101,10 @@ export default function ContactSection() {
           className="text-center mb-16"
         >
           <h2 className="font-['Poppins'] text-3xl md:text-4xl font-bold mb-4">
-            Ready to Transform Your <span className="text-primary">Smile?</span>
+            Pronto para Transformar Seu <span className="text-primary">Sorriso?</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Book your consultation today and take the first step towards your perfect smile
+            Agende sua consulta hoje e dê o primeiro passo em direção ao seu sorriso perfeito
           </p>
         </motion.div>
         
@@ -117,86 +117,86 @@ export default function ContactSection() {
             viewport={{ once: true }}
             className="bg-white rounded-2xl p-8 shadow-lg"
           >
-            <h3 className="font-['Poppins'] text-2xl font-semibold mb-6">Book Your Appointment</h3>
+            <h3 className="font-['Poppins'] text-2xl font-semibold mb-6">Agende Sua Consulta</h3>
             
             <form onSubmit={handleSubmit} className="space-y-4">
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
-                  <Label htmlFor="firstName">First Name *</Label>
+                  <Label htmlFor="firstName">Nome *</Label>
                   <Input
                     id="firstName"
                     type="text"
                     required
                     value={formData.firstName}
                     onChange={(e) => setFormData({ ...formData, firstName: e.target.value })}
-                    placeholder="Enter your first name"
+                    placeholder="Digite seu nome"
                     className="mt-1"
                   />
                 </div>
                 <div>
-                  <Label htmlFor="lastName">Last Name *</Label>
+                  <Label htmlFor="lastName">Sobrenome *</Label>
                   <Input
                     id="lastName"
                     type="text"
                     required
                     value={formData.lastName}
                     onChange={(e) => setFormData({ ...formData, lastName: e.target.value })}
-                    placeholder="Enter your last name"
+                    placeholder="Digite seu sobrenome"
                     className="mt-1"
                   />
                 </div>
               </div>
               
               <div>
-                <Label htmlFor="email">Email Address *</Label>
+                <Label htmlFor="email">Email *</Label>
                 <Input
                   id="email"
                   type="email"
                   required
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                  placeholder="Enter your email address"
+                  placeholder="Digite seu email"
                   className="mt-1"
                 />
               </div>
               
               <div>
-                <Label htmlFor="phone">Phone Number *</Label>
+                <Label htmlFor="phone">Telefone *</Label>
                 <Input
                   id="phone"
                   type="tel"
                   required
                   value={formData.phone}
                   onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                  placeholder="Enter your phone number"
+                  placeholder="Digite seu telefone"
                   className="mt-1"
                 />
               </div>
               
               <div>
-                <Label htmlFor="service">Preferred Service *</Label>
+                <Label htmlFor="service">Serviço Preferido *</Label>
                 <Select value={formData.service} onValueChange={(value) => setFormData({ ...formData, service: value })}>
                   <SelectTrigger className="mt-1">
-                    <SelectValue placeholder="Select a service" />
+                    <SelectValue placeholder="Selecione um serviço" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="consultation">General Consultation</SelectItem>
-                    <SelectItem value="cleaning">Cleaning & Prevention</SelectItem>
-                    <SelectItem value="cosmetic">Cosmetic Dentistry</SelectItem>
-                    <SelectItem value="implants">Dental Implants</SelectItem>
-                    <SelectItem value="orthodontics">Orthodontics</SelectItem>
-                    <SelectItem value="emergency">Emergency Care</SelectItem>
+                    <SelectItem value="consultation">Consulta Geral</SelectItem>
+                    <SelectItem value="cleaning">Limpeza e Prevenção</SelectItem>
+                    <SelectItem value="cosmetic">Odontologia Cosmética</SelectItem>
+                    <SelectItem value="implants">Implantes Dentários</SelectItem>
+                    <SelectItem value="orthodontics">Ortodontia</SelectItem>
+                    <SelectItem value="emergency">Atendimento de Emergência</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
               
               <div>
-                <Label htmlFor="message">Additional Message</Label>
+                <Label htmlFor="message">Mensagem Adicional</Label>
                 <Textarea
                   id="message"
                   value={formData.message}
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                  placeholder="Tell us about your dental concerns or questions"
+                  placeholder="Conte-nos sobre suas preocupações ou perguntas dentárias"
                   className="mt-1"
                   rows={4}
                 />
@@ -207,7 +207,7 @@ export default function ContactSection() {
                 className="w-full dental-btn-primary py-4 text-lg font-semibold"
                 disabled={bookingMutation.isPending}
               >
-                {bookingMutation.isPending ? "Booking..." : "Book My Appointment"}
+                {bookingMutation.isPending ? "Agendando..." : "Agendar Minha Consulta"}
               </Button>
             </form>
           </motion.div>
