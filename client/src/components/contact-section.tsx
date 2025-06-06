@@ -36,8 +36,8 @@ export default function ContactSection() {
     },
     onSuccess: () => {
       toast({
-        title: "Appointment Booked Successfully!",
-        description: "We will contact you shortly to confirm your booking.",
+        title: "Consulta Agendada com Sucesso!",
+        description: "Entraremos em contato em breve para confirmar seu agendamento.",
       });
       setFormData({
         firstName: "",
@@ -50,8 +50,8 @@ export default function ContactSection() {
     },
     onError: (error: any) => {
       toast({
-        title: "Booking Failed",
-        description: error.message || "Please try again or call us directly.",
+        title: "Falha no Agendamento",
+        description: error.message || "Tente novamente ou entre em contato diretamente conosco.",
         variant: "destructive",
       });
     },
@@ -63,7 +63,7 @@ export default function ContactSection() {
     // Basic validation
     if (!formData.firstName || !formData.lastName || !formData.email || !formData.phone || !formData.service) {
       toast({
-        title: "Please fill in all required fields",
+        title: "Por favor, preencha todos os campos obrigatórios",
         variant: "destructive",
       });
       return;
@@ -73,7 +73,7 @@ export default function ContactSection() {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(formData.email)) {
       toast({
-        title: "Please enter a valid email address",
+        title: "Por favor, digite um endereço de email válido",
         variant: "destructive",
       });
       return;
@@ -83,11 +83,11 @@ export default function ContactSection() {
   };
 
   const handleCall = () => {
-    window.location.href = "tel:+15551234567";
+    window.location.href = "tel:+5511999998888";
   };
 
   const handleWhatsApp = () => {
-    window.open("https://wa.me/5551234567?text=Hi%2C%20I%20would%20like%20to%20book%20a%20dental%20appointment.", "_blank");
+    window.open("https://wa.me/5511999998888?text=Olá%2C%20gostaria%20de%20agendar%20uma%20consulta%20odontológica.", "_blank");
   };
 
   return (
