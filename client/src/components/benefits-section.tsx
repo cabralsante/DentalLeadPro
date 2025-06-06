@@ -4,23 +4,23 @@ import { UserCheck, Settings, Heart, Clock } from "lucide-react";
 const benefits = [
   {
     icon: UserCheck,
-    title: "Expert Dentists",
-    description: "Board-certified professionals with years of specialized experience",
+    title: "Dentistas Especialistas",
+    description: "Profissionais certificados com anos de experiência especializada",
   },
   {
     icon: Settings,
-    title: "Advanced Technology",
-    description: "State-of-the-art equipment for precise and comfortable treatments",
+    title: "Tecnologia Avançada",
+    description: "Equipamentos de última geração para tratamentos precisos e confortáveis",
   },
   {
     icon: Heart,
-    title: "Gentle Care",
-    description: "Pain-free procedures with a focus on patient comfort and relaxation",
+    title: "Cuidado Gentil",
+    description: "Procedimentos sem dor com foco no conforto e relaxamento do paciente",
   },
   {
     icon: Clock,
-    title: "Flexible Hours",
-    description: "Evening and weekend appointments to fit your busy schedule",
+    title: "Horários Flexíveis",
+    description: "Consultas noturnas e aos finais de semana para sua agenda corrida",
   },
 ];
 
@@ -36,10 +36,10 @@ export default function BenefitsSection() {
           className="text-center mb-16"
         >
           <h2 className="font-['Poppins'] text-3xl md:text-4xl font-bold mb-4">
-            Why Choose <span className="text-primary">Smile Dental?</span>
+            Por que Escolher a <span className="text-primary">Sorriso Dental?</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            We're committed to providing exceptional dental care that goes beyond your expectations
+            Estamos comprometidos em fornecer cuidados odontológicos excepcionais que superam suas expectativas
           </p>
         </motion.div>
         

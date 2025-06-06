@@ -33,7 +33,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <Phone className="text-primary text-2xl mr-2" />
-            <span className="font-bold text-xl text-primary font-['Poppins']">Smile Dental</span>
+            <span className="font-bold text-xl text-primary font-['Poppins']">Sorriso Dental</span>
           </div>
           
           {/* Desktop Navigation */}
@@ -43,31 +43,31 @@ export default function Navigation() {
                 onClick={() => scrollToSection("home")}
                 className="text-muted-foreground hover:text-primary transition-colors duration-300 font-medium focus-visible"
               >
-                Home
+                Início
               </button>
               <button 
                 onClick={() => scrollToSection("about")}
                 className="text-muted-foreground hover:text-primary transition-colors duration-300 font-medium focus-visible"
               >
-                About
+                Sobre
               </button>
               <button 
                 onClick={() => scrollToSection("treatments")}
                 className="text-muted-foreground hover:text-primary transition-colors duration-300 font-medium focus-visible"
               >
-                Treatments
+                Tratamentos
               </button>
               <button 
                 onClick={() => scrollToSection("testimonials")}
                 className="text-muted-foreground hover:text-primary transition-colors duration-300 font-medium focus-visible"
               >
-                Reviews
+                Avaliações
               </button>
               <Button 
                 onClick={() => scrollToSection("contact")}
                 className="dental-btn-primary rounded-full px-6 py-2 font-medium"
               >
-                Book Now
+                Agendar
               </Button>
             </div>
           </div>
@@ -94,31 +94,31 @@ export default function Navigation() {
                 onClick={() => scrollToSection("home")}
                 className="block w-full text-left px-3 py-2 text-muted-foreground hover:text-primary"
               >
-                Home
+                Início
               </button>
               <button 
                 onClick={() => scrollToSection("about")}
                 className="block w-full text-left px-3 py-2 text-muted-foreground hover:text-primary"
               >
-                About
+                Sobre
               </button>
               <button 
                 onClick={() => scrollToSection("treatments")}
                 className="block w-full text-left px-3 py-2 text-muted-foreground hover:text-primary"
               >
-                Treatments
+                Tratamentos
               </button>
               <button 
                 onClick={() => scrollToSection("testimonials")}
                 className="block w-full text-left px-3 py-2 text-muted-foreground hover:text-primary"
               >
-                Reviews
+                Avaliações
               </button>
               <Button 
                 onClick={() => scrollToSection("contact")}
                 className="dental-btn-primary w-full mx-3 my-2 rounded-lg"
               >
-                Book Now
+                Agendar
               </Button>
             </div>
           </div>

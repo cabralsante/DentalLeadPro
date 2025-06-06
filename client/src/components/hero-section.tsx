@@ -20,41 +20,35 @@ export default function HeroSection() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="font-['Poppins'] text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Your Perfect <span className="text-primary">Smile</span>{" "}
-              Starts <span className="text-accent">Here</span>
+              Seu <span className="text-primary">Sorriso</span> Perfeito
+              Começa <span className="text-accent">Aqui</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed">
-              Experience exceptional dental care with our expert team. We combine advanced technology with gentle care to give you the smile you've always dreamed of.
+              Experimente cuidados odontológicos excepcionais com nossa equipe especializada. Combinamos tecnologia avançada com cuidado gentil para dar a você o sorriso dos seus sonhos.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
               <Button 
                 onClick={scrollToContact}
-                className="dental-btn-primary px-8 py-4 rounded-full font-semibold text-lg"
-              >
-                Book Your Consultation
-              </Button>
-              <Button 
                 variant="outline"
                 className="dental-btn-secondary px-8 py-4 rounded-full font-semibold text-lg"
               >
-                <Play className="mr-2 h-5 w-5" />
-                Watch Our Story
+                Agende sua consulta
               </Button>
             </div>
             
             <div className="flex items-center space-x-6 text-sm text-muted-foreground">
               <div className="flex items-center">
                 <Star className="text-accent mr-1 h-4 w-4 fill-current" />
-                <span className="font-semibold">4.9/5</span> Rating
+                <span className="font-semibold">4.9/5</span> Avaliação
               </div>
               <div className="flex items-center">
                 <Users className="text-accent mr-1 h-4 w-4" />
-                <span className="font-semibold">2000+</span> Happy Patients
+                <span className="font-semibold">2000+</span> Pacientes Felizes
               </div>
               <div className="flex items-center">
                 <Award className="text-accent mr-1 h-4 w-4" />
-                <span className="font-semibold">15+</span> Years Experience
+                <span className="font-semibold">15+</span> Anos de Experiência
               </div>
             </div>
           </motion.div>

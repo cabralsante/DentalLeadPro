@@ -4,16 +4,16 @@ import { CheckCircle } from "lucide-react";
 
 const features = [
   {
-    title: "Comprehensive Care",
-    description: "From routine cleanings to complex procedures, we handle all your dental needs",
+    title: "Cuidado Abrangente",
+    description: "Desde limpezas de rotina até procedimentos complexos, cuidamos de todas as suas necessidades dentárias",
   },
   {
-    title: "Family-Friendly",
-    description: "Specialized care for patients of all ages, from children to seniors",
+    title: "Amigável para Famílias",
+    description: "Cuidado especializado para pacientes de todas as idades, desde crianças até idosos",
   },
   {
-    title: "Insurance Accepted",
-    description: "We work with most insurance plans and offer flexible payment options",
+    title: "Planos de Saúde Aceitos",
+    description: "Trabalhamos com a maioria dos planos de saúde e oferecemos opções flexíveis de pagamento",
   },
 ];
 
@@ -42,10 +42,10 @@ export default function AboutSection() {
             viewport={{ once: true }}
           >
             <h2 className="font-['Poppins'] text-3xl md:text-4xl font-bold mb-6">
-              About <span className="text-primary">Our Clinic</span>
+              Sobre <span className="text-primary">Nossa Clínica</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              For over 15 years, Smile Dental has been the trusted choice for families seeking exceptional dental care. Our state-of-the-art facility combines cutting-edge technology with a warm, welcoming environment.
+              Por mais de 15 anos, a Sorriso Dental tem sido a escolha confiável para famílias que buscam cuidados odontológicos excepcionais. Nossa instalação de última geração combina tecnologia de ponta com um ambiente acolhedor e caloroso.
             </p>
             
             <div className="space-y-4 mb-8">
@@ -68,7 +68,7 @@ export default function AboutSection() {
             </div>
             
             <Button className="dental-btn-primary px-8 py-3 rounded-full font-semibold">
-              Learn More About Us
+              Saiba Mais Sobre Nós
             </Button>
           </motion.div>
         </div>
