@@ -26,9 +26,9 @@ export default function HeroSection() {
             <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed">
               Experimente cuidados odontológicos excepcionais com nossa equipe especializada. Combinamos tecnologia avançada com cuidado gentil para dar a você o sorriso dos seus sonhos.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
-              <Button 
+              <Button
                 onClick={scrollToContact}
                 variant="outline"
                 className="dental-btn-secondary px-8 py-4 rounded-full font-semibold text-lg"
@@ -36,7 +36,7 @@ export default function HeroSection() {
                 Agende sua consulta
               </Button>
             </div>
-            
+
             <div className="flex items-center space-x-6 text-sm text-muted-foreground">
               <div className="flex items-center">
                 <Star className="text-accent mr-1 h-4 w-4 fill-current" />
@@ -44,30 +44,30 @@ export default function HeroSection() {
               </div>
               <div className="flex items-center">
                 <Users className="text-accent mr-1 h-4 w-4" />
-                <span className="font-semibold">2000+</span> Pacientes Felizes
+                <span className="font-semibold">21.348+</span> Vidas Transformadas
               </div>
               <div className="flex items-center">
                 <Award className="text-accent mr-1 h-4 w-4" />
-                <span className="font-semibold">15+</span> Anos de Experiência
+                <span className="font-semibold">13+</span> Anos de Experiência
               </div>
             </div>
           </motion.div>
-          
+
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             className="lg:order-2"
           >
-            <img 
-              src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" 
-              alt="Happy patient with perfect smile after dental treatment" 
+            <img
+              src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600"
+              alt="Happy patient with perfect smile after dental treatment"
               className="rounded-2xl shadow-2xl w-full h-auto"
             />
           </motion.div>
         </div>
       </div>
-      
+
       {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 gentle-bounce">
         <ChevronDown className="text-primary text-2xl" />

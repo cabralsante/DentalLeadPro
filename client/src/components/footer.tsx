@@ -24,7 +24,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <div className="flex items-center mb-4">
               <Phone className="text-primary text-2xl mr-2" />
-              <span className="font-['Poppins'] font-bold text-xl">Sorriso Dental</span>
+              <span className="font-['Poppins'] font-bold text-xl">Dental Santé</span>
             </div>
             <p className="text-gray-400 mb-4 max-w-md">
               Seu parceiro confiável para cuidados odontológicos abrangentes. Estamos comprometidos em ajudá-lo a alcançar e manter seu sorriso perfeito através de cuidados especializados e tecnologia avançada.
@@ -81,15 +81,15 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-400">
               <li className="flex items-start">
                 <span className="text-primary mr-2 mt-1">📍</span>
-                <span>Rua Dental, 123, São Paulo</span>
+                <span>Av. Bernardo Vieira de Melo, 2418, Piedade</span>
               </li>
               <li className="flex items-start">
                 <span className="text-primary mr-2 mt-1">📞</span>
-                <span>(11) 9999-8888</span>
+                <span>(81) 3094-0025</span>
               </li>
               <li className="flex items-start">
                 <span className="text-primary mr-2 mt-1">✉️</span>
-                <span>contato@sorrisodental.com.br</span>
+                <span>contato@dentalsante.com.br</span>
               </li>
               <li className="flex items-start">
                 <span className="text-primary mr-2 mt-1">🕒</span>
@@ -101,7 +101,7 @@ export default function Footer() {
         
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            © 2024 Clínica Sorriso Dental. Todos os direitos reservados.
+            © 2024 Clínica Dental Santé. Todos os direitos reservados.
           </p>
           <div className="flex space-x-6 text-sm text-gray-400">
             <a href="#" className="hover:text-accent transition-colors duration-300">Política de Privacidade</a>

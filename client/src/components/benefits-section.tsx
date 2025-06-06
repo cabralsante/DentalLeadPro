@@ -36,7 +36,7 @@ export default function BenefitsSection() {
           className="text-center mb-16"
         >
           <h2 className="font-['Poppins'] text-3xl md:text-4xl font-bold mb-4">
-            Por que Escolher a <span className="text-primary">Sorriso Dental?</span>
+            Por que Escolher a <span className="text-primary">Dental Santé?</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Estamos comprometidos em fornecer cuidados odontológicos excepcionais que superam suas expectativas

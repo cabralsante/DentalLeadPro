@@ -83,16 +83,16 @@ export default function ContactSection() {
   };
 
   const handleCall = () => {
-    window.location.href = "tel:+5511999998888";
+    window.location.href = "tel:+558130940025";
   };
 
   const handleWhatsApp = () => {
-    window.open("https://wa.me/5511999998888?text=Olá%2C%20gostaria%20de%20agendar%20uma%20consulta%20odontológica.", "_blank");
+    window.open("https://wa.me/558130940025?text=Olá%2C%20gostaria%20de%20agendar%20uma%20consulta%20odontológica.", "_blank");
   };
 
   return (
     <section id="contact" className="py-20 bg-muted">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -108,110 +108,7 @@ export default function ContactSection() {
           </p>
         </motion.div>
         
-        <div className="grid lg:grid-cols-2 gap-12">
-          {/* Contact Form */}
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-            className="bg-white rounded-2xl p-8 shadow-lg"
-          >
-            <h3 className="font-['Poppins'] text-2xl font-semibold mb-6">Agende Sua Consulta</h3>
-            
-            <form onSubmit={handleSubmit} className="space-y-4">
-              <div className="grid md:grid-cols-2 gap-4">
-                <div>
-                  <Label htmlFor="firstName">Nome *</Label>
-                  <Input
-                    id="firstName"
-                    type="text"
-                    required
-                    value={formData.firstName}
-                    onChange={(e) => setFormData({ ...formData, firstName: e.target.value })}
-                    placeholder="Digite seu nome"
-                    className="mt-1"
-                  />
-                </div>
-                <div>
-                  <Label htmlFor="lastName">Sobrenome *</Label>
-                  <Input
-                    id="lastName"
-                    type="text"
-                    required
-                    value={formData.lastName}
-                    onChange={(e) => setFormData({ ...formData, lastName: e.target.value })}
-                    placeholder="Digite seu sobrenome"
-                    className="mt-1"
-                  />
-                </div>
-              </div>
-              
-              <div>
-                <Label htmlFor="email">Email *</Label>
-                <Input
-                  id="email"
-                  type="email"
-                  required
-                  value={formData.email}
-                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                  placeholder="Digite seu email"
-                  className="mt-1"
-                />
-              </div>
-              
-              <div>
-                <Label htmlFor="phone">Telefone *</Label>
-                <Input
-                  id="phone"
-                  type="tel"
-                  required
-                  value={formData.phone}
-                  onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                  placeholder="Digite seu telefone"
-                  className="mt-1"
-                />
-              </div>
-              
-              <div>
-                <Label htmlFor="service">Serviço Preferido *</Label>
-                <Select value={formData.service} onValueChange={(value) => setFormData({ ...formData, service: value })}>
-                  <SelectTrigger className="mt-1">
-                    <SelectValue placeholder="Selecione um serviço" />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value="consultation">Consulta Geral</SelectItem>
-                    <SelectItem value="cleaning">Limpeza e Prevenção</SelectItem>
-                    <SelectItem value="cosmetic">Odontologia Cosmética</SelectItem>
-                    <SelectItem value="implants">Implantes Dentários</SelectItem>
-                    <SelectItem value="orthodontics">Ortodontia</SelectItem>
-                    <SelectItem value="emergency">Atendimento de Emergência</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-              
-              <div>
-                <Label htmlFor="message">Mensagem Adicional</Label>
-                <Textarea
-                  id="message"
-                  value={formData.message}
-                  onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                  placeholder="Conte-nos sobre suas preocupações ou perguntas dentárias"
-                  className="mt-1"
-                  rows={4}
-                />
-              </div>
-              
-              <Button 
-                type="submit" 
-                className="w-full dental-btn-primary py-4 text-lg font-semibold"
-                disabled={bookingMutation.isPending}
-              >
-                {bookingMutation.isPending ? "Agendando..." : "Agendar Minha Consulta"}
-              </Button>
-            </form>
-          </motion.div>
-          
+        <div className="grid lg:grid-cols-1 gap-6">          
           {/* Contact Information */}
           <motion.div
             initial={{ opacity: 0, x: 20 }}
@@ -229,8 +126,8 @@ export default function ContactSection() {
                 <div>
                   <h4 className="font-['Poppins'] text-lg font-semibold mb-2">Visite Nossa Clínica</h4>
                   <p className="text-muted-foreground mb-2">
-                    Rua Dental, 123<br />
-                    São Paulo, SP 01234-567
+                    Av. Bernardo Vieira de Melo, 2418 <br />
+                    Piedade, Jaboatão dos Guararapes, PE 54410-010
                   </p>
                   <Button 
                     variant="link" 
@@ -250,10 +147,10 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-['Poppins'] text-lg font-semibold mb-2">Ligue para Nós</h4>
-                  <p className="text-muted-foreground mb-2">(11) 9999-8888</p>
+                  <p className="text-muted-foreground mb-2">(81) 3094-0025</p>
                   <p className="text-sm text-muted-foreground mb-2">
                     Seg-Sex: 8h-18h<br />
-                    Sáb: 9h-14h
+                    Sáb: 8h-13h
                   </p>
                   <Button 
                     onClick={handleCall}

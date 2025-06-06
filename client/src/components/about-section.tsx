@@ -45,7 +45,7 @@ export default function AboutSection() {
               Sobre <span className="text-primary">Nossa Clínica</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              Por mais de 15 anos, a Sorriso Dental tem sido a escolha confiável para famílias que buscam cuidados odontológicos excepcionais. Nossa instalação de última geração combina tecnologia de ponta com um ambiente acolhedor e caloroso.
+              Por mais de 15 anos, a Dental Santé tem sido a escolha confiável para famílias que buscam cuidados odontológicos excepcionais. Nossa instalação de última geração combina tecnologia de ponta com um ambiente acolhedor e caloroso.
             </p>
             
             <div className="space-y-4 mb-8">

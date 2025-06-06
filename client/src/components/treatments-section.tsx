@@ -76,17 +76,7 @@ export default function TreatmentsSection() {
                 className="w-full h-48 object-cover rounded-xl mb-4"
               />
               <h3 className="font-['Poppins'] text-xl font-semibold mb-3">{treatment.title}</h3>
-              <p className="text-muted-foreground mb-4">{treatment.description}</p>
-              <div className="flex justify-between items-center">
-                <span className="text-primary font-semibold">{treatment.price}</span>
-                <Button 
-                  variant="ghost" 
-                  size="icon"
-                  className="text-primary hover:text-accent transition-colors duration-300"
-                >
-                  <ArrowRight className="h-5 w-5" />
-                </Button>
-              </div>
+              <p className="text-muted-foreground">{treatment.description}</p>
             </motion.div>
           ))}
         </div>

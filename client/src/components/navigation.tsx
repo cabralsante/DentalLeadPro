@@ -33,7 +33,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <Phone className="text-primary text-2xl mr-2" />
-            <span className="font-bold text-xl text-primary font-['Poppins']">Sorriso Dental</span>
+            <span className="font-bold text-xl text-primary font-['Poppins']">Dental Santé</span>
           </div>
           
           {/* Desktop Navigation */}
