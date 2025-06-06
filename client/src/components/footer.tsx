@@ -1,11 +1,11 @@
 import { Phone, Facebook, Instagram, Twitter, Linkedin } from "lucide-react";
 
 const services = [
-  "Preventive Care",
-  "Cosmetic Dentistry", 
-  "Dental Implants",
-  "Orthodontics",
-  "Emergency Care",
+  "Cuidados Preventivos",
+  "Odontologia Cosmética", 
+  "Implantes Dentários",
+  "Ortodontia",
+  "Atendimento de Emergência",
 ];
 
 const contactInfo = [
@@ -24,10 +24,10 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <div className="flex items-center mb-4">
               <Phone className="text-primary text-2xl mr-2" />
-              <span className="font-['Poppins'] font-bold text-xl">Smile Dental</span>
+              <span className="font-['Poppins'] font-bold text-xl">Sorriso Dental</span>
             </div>
             <p className="text-gray-400 mb-4 max-w-md">
-              Your trusted partner for comprehensive dental care. We're committed to helping you achieve and maintain your perfect smile through expert care and advanced technology.
+              Seu parceiro confiável para cuidados odontológicos abrangentes. Estamos comprometidos em ajudá-lo a alcançar e manter seu sorriso perfeito através de cuidados especializados e tecnologia avançada.
             </p>
             <div className="flex space-x-4">
               <a 
@@ -63,7 +63,7 @@ export default function Footer() {
           
           {/* Services */}
           <div>
-            <h4 className="font-['Poppins'] font-semibold text-lg mb-4">Our Services</h4>
+            <h4 className="font-['Poppins'] font-semibold text-lg mb-4">Nossos Serviços</h4>
             <ul className="space-y-2 text-gray-400">
               {services.map((service) => (
                 <li key={service}>
@@ -77,23 +77,23 @@ export default function Footer() {
           
           {/* Contact Info */}
           <div>
-            <h4 className="font-['Poppins'] font-semibold text-lg mb-4">Contact Info</h4>
+            <h4 className="font-['Poppins'] font-semibold text-lg mb-4">Informações de Contato</h4>
             <ul className="space-y-2 text-gray-400">
               <li className="flex items-start">
                 <span className="text-primary mr-2 mt-1">📍</span>
-                <span>123 Dental Street, Smile City</span>
+                <span>Rua Dental, 123, São Paulo</span>
               </li>
               <li className="flex items-start">
                 <span className="text-primary mr-2 mt-1">📞</span>
-                <span>(555) 123-SMILE</span>
+                <span>(11) 9999-8888</span>
               </li>
               <li className="flex items-start">
                 <span className="text-primary mr-2 mt-1">✉️</span>
-                <span>info@smiledental.com</span>
+                <span>contato@sorrisodental.com.br</span>
               </li>
               <li className="flex items-start">
                 <span className="text-primary mr-2 mt-1">🕒</span>
-                <span>Mon-Sat: 8AM-6PM</span>
+                <span>Seg-Sáb: 8h-18h</span>
               </li>
             </ul>
           </div>
@@ -101,12 +101,12 @@ export default function Footer() {
         
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            © 2024 Smile Dental Clinic. All rights reserved.
+            © 2024 Clínica Sorriso Dental. Todos os direitos reservados.
           </p>
           <div className="flex space-x-6 text-sm text-gray-400">
-            <a href="#" className="hover:text-accent transition-colors duration-300">Privacy Policy</a>
-            <a href="#" className="hover:text-accent transition-colors duration-300">Terms of Service</a>
-            <a href="#" className="hover:text-accent transition-colors duration-300">HIPAA Compliance</a>
+            <a href="#" className="hover:text-accent transition-colors duration-300">Política de Privacidade</a>
+            <a href="#" className="hover:text-accent transition-colors duration-300">Termos de Serviço</a>
+            <a href="#" className="hover:text-accent transition-colors duration-300">Conformidade LGPD</a>
           </div>
         </div>
       </div>

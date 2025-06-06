@@ -227,16 +227,16 @@ export default function ContactSection() {
                   <MapPin className="text-primary-foreground h-6 w-6" />
                 </div>
                 <div>
-                  <h4 className="font-['Poppins'] text-lg font-semibold mb-2">Visit Our Clinic</h4>
+                  <h4 className="font-['Poppins'] text-lg font-semibold mb-2">Visite Nossa Clínica</h4>
                   <p className="text-muted-foreground mb-2">
-                    123 Dental Street<br />
-                    Smile City, SC 12345
+                    Rua Dental, 123<br />
+                    São Paulo, SP 01234-567
                   </p>
                   <Button 
                     variant="link" 
                     className="text-primary hover:text-accent p-0 h-auto font-medium"
                   >
-                    Get Directions <ExternalLink className="ml-1 h-4 w-4" />
+                    Como Chegar <ExternalLink className="ml-1 h-4 w-4" />
                   </Button>
                 </div>
               </div>
@@ -249,18 +249,18 @@ export default function ContactSection() {
                   <Phone className="text-primary-foreground h-6 w-6" />
                 </div>
                 <div>
-                  <h4 className="font-['Poppins'] text-lg font-semibold mb-2">Call Us Today</h4>
-                  <p className="text-muted-foreground mb-2">(555) 123-SMILE</p>
+                  <h4 className="font-['Poppins'] text-lg font-semibold mb-2">Ligue para Nós</h4>
+                  <p className="text-muted-foreground mb-2">(11) 9999-8888</p>
                   <p className="text-sm text-muted-foreground mb-2">
-                    Mon-Fri: 8AM-6PM<br />
-                    Sat: 9AM-2PM
+                    Seg-Sex: 8h-18h<br />
+                    Sáb: 9h-14h
                   </p>
                   <Button 
                     onClick={handleCall}
                     variant="link" 
                     className="text-primary hover:text-accent p-0 h-auto font-medium"
                   >
-                    Call Now <Phone className="ml-1 h-4 w-4" />
+                    Ligar Agora <Phone className="ml-1 h-4 w-4" />
                   </Button>
                 </div>
               </div>
@@ -273,14 +273,14 @@ export default function ContactSection() {
                   <MessageCircle className="text-white h-6 w-6" />
                 </div>
                 <div>
-                  <h4 className="font-['Poppins'] text-lg font-semibold mb-2">WhatsApp Support</h4>
-                  <p className="text-muted-foreground mb-2">Quick questions and appointment booking</p>
+                  <h4 className="font-['Poppins'] text-lg font-semibold mb-2">Suporte WhatsApp</h4>
+                  <p className="text-muted-foreground mb-2">Perguntas rápidas e agendamento de consultas</p>
                   <Button 
                     onClick={handleWhatsApp}
                     variant="link" 
                     className="text-green-500 hover:text-green-600 p-0 h-auto font-medium"
                   >
-                    Message Us <MessageCircle className="ml-1 h-4 w-4" />
+                    Fale Conosco <MessageCircle className="ml-1 h-4 w-4" />
                   </Button>
                 </div>
               </div>
@@ -293,13 +293,13 @@ export default function ContactSection() {
                   <Phone className="text-white h-6 w-6" />
                 </div>
                 <div>
-                  <h4 className="font-['Poppins'] text-lg font-semibold mb-2 text-red-700">Dental Emergency?</h4>
-                  <p className="text-red-600 mb-2">We provide same-day emergency appointments</p>
+                  <h4 className="font-['Poppins'] text-lg font-semibold mb-2 text-red-700">Emergência Dentária?</h4>
+                  <p className="text-red-600 mb-2">Oferecemos consultas de emergência no mesmo dia</p>
                   <Button 
                     onClick={handleCall}
                     className="bg-red-500 text-white hover:bg-red-600 font-medium"
                   >
-                    Emergency Contact
+                    Contato de Emergência
                   </Button>
                 </div>
               </div>
